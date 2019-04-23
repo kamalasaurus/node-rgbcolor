@@ -3,7 +3,7 @@
 	http://www.phpied.com/rgb-color-parser-in-javascript/
 */
 
-module.exports = function(color_string) {
+export default function(color_string) {
     this.ok = false;
     this.alpha = 1.0;
 
